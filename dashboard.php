@@ -168,18 +168,21 @@ $conn->close();
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand nav-link active" href="home.php">Autokanta</a>
+                <a class="navbar-brand" href="home.php">Autokanta</a>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"></a>
+                            <a href="person_management.php" class="btn btn-secondary me-2">Update User infos</a>
                         </li>
                     </ul>
-                    <a href="person_management.php" class="btn btn-secondary">Profile</a>
-                    <a href="home.php" class="btn btn-danger">Logout</a>
+                    <div>
+                        <a href="index.php" class="btn btn-danger me-2">Profile</a>
+                        <a href="logout.php" class="btn btn-danger me-2">Logout</a>
+                    </div>
                 </div>
             </div>
         </nav>
+
 
         <div class="container mt-5">
             <h2>Fine Management Dashboard</h2>

@@ -51,7 +51,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $conn->commit();
 
             // Redirect to index page after successful registration
-            header("Location: index.php");
+            header("Location: login.php");
             exit(); // Always exit after a redirect
 
         } catch (Exception $e) {
@@ -116,7 +116,7 @@ $conn->close();
             </div>
 
             <button type="submit" class="btn btn-primary btn-block">Register</button>
-            <a href="./login.php" class="btn btn-secondary btn-block">Login</a>
+            <a href="login.php" class="btn btn-secondary btn-block">Login</a>
         </form>
     </div>
 
